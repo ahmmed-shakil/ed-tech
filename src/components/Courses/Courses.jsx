@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Announcement from '../Announcement/Announcement';
 import Course from '../Course/Course';
 import CoursesSection from '../CoursesSection/CoursesSection';
+import Footer from '../Footer/Footer';
 import NavSection from '../NavSection/NavSection';
 
 const Courses = () => {
@@ -12,6 +13,9 @@ const Courses = () => {
             <NavSection />
             <Announcement />
             <CoursesSection />
+            <div className='mt-3'>
+                <Footer />
+            </div>
         </div>
     );
 };
