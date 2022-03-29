@@ -28,7 +28,14 @@ const NavSection = () => {
                     <Col xs={12} md={4} className="d-md-flex d-none align-items-center auth justify-content-end">
                         {
                             user.email ?
-                                <Link className='reg' onClick={handleLogOut}>LOGOUT</Link> :
+                                <>
+                                    <Link className='reg' onClick={handleLogOut}>LOGOUT</Link>
+                                    <span className='d-md-flex'>
+                                        <i class="bi bi-person-circle fs-2 ms-md-3"></i>
+                                        <p className='pt-3 ms-1'>{user.displayName ? user.displayName : "Hello"}</p>
+                                    </span>
+                                </>
+                                :
                                 <span className='d-flex align-items-center'>
                                     <Link className='login' to='/login'>LOGIN</Link>
                                     <Link className='reg' to='/register'>REGISTER</Link>
@@ -53,7 +60,12 @@ const NavSection = () => {
                         <NavLink activeClassName="selected" to="/dashboard">Dashboard</NavLink>
                         {
                             user.email ?
-                                <Link className='reg mt-3' onClick={handleLogOut}>Logout</Link> :
+                                <span>
+                                    <Link className='reg mt-3' onClick={handleLogOut}>Logout</Link>
+                                    <i class="bi bi-person-circle fs-2 ms-md-3"></i>
+                                    <p className='pt-md-3 ms-1'>{user.displayName ? user.displayName : "Hello"}</p>
+                                </span>
+                                :
                                 <span>
                                     <Link className='text-danger fw-bold' to='/login'>Log in</Link>
                                     <Link className='reg mt-2' to='/register'>Register</Link>
