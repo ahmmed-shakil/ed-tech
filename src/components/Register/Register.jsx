@@ -51,13 +51,13 @@ const Register = () => {
         <div>
             <NavSection />
             <Announcement />
-            <div className='login-page pt-md-5'>
+            <div className='login-page pt-md-2'>
                 <Container>
                     <Row>
-                        <Col lg={6} sm={12} className='login-form p-3 pt-0 text-start fs-5'>
+                        <Col lg={12} sm={12} className='login-form p-3 pt-0 fs-5 w-50 mx-auto'>
                             <h2 className='text-uppercase login-header py-3'>Register</h2>
 
-                            <Form onSubmit={userRegistration}>
+                            <Form onSubmit={userRegistration} className='mt-4 text-start'>
 
                                 <Form.Group className="mb-3" controlId="formBasicName">
                                     <Form.Label>Your Name</Form.Label>
@@ -80,7 +80,7 @@ const Register = () => {
                             <Button className='enroll-btn w-100 mt-3' onClick={signInUsingGoogle}>Google Sign In</Button>
                             <p className='text-danger pt-2 fs-6 fw-bold'>{registrationError}</p>
                             <div className='pt-3'>
-                                <h4 className='fs-6'>Already Registered? <NavLink onClick={removeError} className='text-dark bg-light shadow-sm my-3 py-2' to={'/login'}>Login</NavLink></h4>
+                                <h4 className='fs-6'>Already Registered? <NavLink onClick={removeError} className='text-white bg-dark w-50 mx-auto py-2 mt-2' to={'/login'}>Login</NavLink></h4>
                             </div>
                         </Col>
                     </Row>

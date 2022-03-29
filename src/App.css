@@ -99,6 +99,21 @@ a{
 .f-links a:hover{
   color: brown;
 }
+.bar{
+  height: 4px;
+  width: 27px;
+  background-color: brown;
+  margin: 1.5px 0;
+  transition: 1s all ease-in-out;
+}
+.toggle-nav{
+  position: fixed;
+  top:0;
+  z-index: 999;
+  transition: all 1s ease-in-out;
+  color: #00262B;
+}
+
 
 @media (max-width:792px){
   .cards{
