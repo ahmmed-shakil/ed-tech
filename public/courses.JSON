@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "title": "Build your very first iOS app",
+        "desc": "Learn how to get started with app development and create your very first iOS app.",
+        "duration": 8,
+        "hours": "8-10",
+        "start": "28 March, 2022",
+        "price": 120,
+        "img": "https://d1rytvr7gmk1sx.cloudfront.net/wp-content/uploads/2020/07/10iosapps-1password.jpg",
+        "bg": "white"
+    },
+    {
+        "id": 2,
+        "title": "Mobile App Development with Swift",
+        "desc": "Learn how to utilise the Apple developer tools (Xcode, Instruments, debugger, analyzer, and iOS Simulator) to build your app",
+        "duration": 12,
+        "hours": "8-10",
+        "start": "31 March, 2022",
+        "price": 180,
+        "img": "https://3.imimg.com/data3/VJ/IN/MY-10081672/computer-education-500x500.jpg",
+        "bg": "#00262B"
+    },
+    {
+        "id": 3,
+        "title": "Developing Cloud Applications with Node.js and React",
+        "desc": "Learn how to develop and deploy web applications with JavaScript frameworks. Create server-side applications using Node.js and develop the front-end using React. Deploy the app on Cloud.",
+        "duration": 10,
+        "hours": "10-12",
+        "start": "05 May, 2022",
+        "price": 290,
+        "img": "https://m.media-amazon.com/images/I/618kyGSwX2L._SL1000_.jpg",
+        "bg": "white"
+    },
+    {
+        "id": 4,
+        "title": "Developing Cloud Native Applications",
+        "desc": "Learn about Cloud Native Computing. Understand and start using DevOps practices and tools. Work with REST APIs and JSON.",
+        "duration": 9,
+        "hours": "8-10",
+        "start": "30 March, 2022",
+        "price": 149,
+        "img": "https://data.whicdn.com/images/311348972/original.jpg",
+        "bg": "white"
+    },
+    {
+        "id": 5,
+        "title": "Data Structures and Software Design",
+        "desc": "Learn how to select, apply, and analyze the most appropriate data representations in your code and design high quality software that is easy to understand and modify.",
+        "duration": 10,
+        "hours": "8-10",
+        "start": "10 May, 2022",
+        "price": 280,
+        "img": "https://media.gettyimages.com/photos/in-this-photo-illustration-ariana-grande-and-lady-gaga-viewed-on-a-picture-id1269772629?s=612x612",
+        "bg": "white"
+    },
+    {
+        "id": 6,
+        "title": "JavaScript Introduction",
+        "desc": "Learn JavaScript, a Web development programming language, to add interactivity to your Web pages, and become an expert Web developer.",
+        "duration": 4,
+        "hours": "8-10",
+        "start": "10 May, 2022",
+        "price": 100,
+        "img": "https://nebulas-it.com/wp-content/uploads/2017/03/1.png",
+        "bg": "#00262B"
+    },
+    {
+        "id": 7,
+        "title": "How Virtual Reality Works",
+        "desc": "Learn how virtual reality technology works by writing simple VR programs with WebVR.",
+        "duration": 10,
+        "hours": "6-8",
+        "start": "29 March, 2022",
+        "price": 210,
+        "img": "https://ugc.futurelearn.com/uploads/images/c7/88/header_small_c788843a-3ccd-4c98-b943-dc1ebf14f8db.jpg",
+        "bg": "#00262B"
+    },
+    {
+        "id": 8,
+        "title": "Creating Virtual Reality (VR) Apps",
+        "desc": "Learn the tools and techniques to develop your own professional VR app in Unity 3D.",
+        "duration": 15,
+        "hours": "8-10",
+        "start": "30 March, 2022",
+        "price": 320,
+        "img": "https://images.shiksha.ws/mediadata/images/articles/businessman-hand-chooses-it-wording-on-interface-screen-picture-id644048362.jpg",
+        "bg": "white"
+    },
+    {
+        "id": 9,
+        "title": "Programming Reactive Systems",
+        "desc": "Learn principles of Reactive Programming in Scala.",
+        "duration": 5,
+        "hours": "8-10",
+        "start": "31 March, 2022",
+        "price": 160,
+        "img": "https://cache.careers360.mobi/media/article_images/2021/7/21/computer-courses-after-12th-science.jpg",
+        "bg": "#00262B"
+    }
+]
